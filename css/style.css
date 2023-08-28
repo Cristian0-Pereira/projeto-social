@@ -3,26 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-}
 .madeira{
     width: 100vw;
-    height: 100vh;
+    height: 98vh;
 }
 .container{
     display: flex;
     position: relative;
+    z-index: 1;
     justify-content: center;
     align-items: center;
 }
-.iphone{
+.iphone, .home{
+    display: inline-block;
     position: absolute;
 }
-.home{
-    position: absolute;
-    width: 270px;
-    border-radius: 10px;
+.home img{
+    align-items: right;
+    width: 200px;
+    
 }
+
