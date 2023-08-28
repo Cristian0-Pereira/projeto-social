@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.madeira{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.iphone{
+    position: absolute;
+}
+.home{
+    position: absolute;
+    width: 270px;
+    border-radius: 10px;
+}
