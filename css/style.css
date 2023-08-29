@@ -3,23 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    border: 2px solid green;
+    /*background-image: url('../img/fundo-madeira.jpg');
+    background-position: center;*/
+    width: 100vw;
+    height: 100vh;
+}
 .container{
+    
+    border: 2px solid red;
+}
+img{
     display: flex;
-    justify-content: center;
     align-items: center;
+    border: 2px solid yellow;
+    
 }
-.madeira{
-    width: 98vw;
-    height: 98vh;
-}
-.iphone, .tela-home{
-    position: absolute;
-}
-.tela-home{
-    width: 268px;
-    margin-top:5px;
-    border-radius: 5px;
-}
-
-
-
