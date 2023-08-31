@@ -4,47 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    border: 2px solid chartreuse;
     /*background-image: url('../img/fundo-madeira.jpg');
     background-position: center;*/
     width: 100vw;
     height: 100vh;
-}
-.madeira{
-    width: 99vw;
-    height: 98vh;
-}
-.iphone, .home-tela{
-    position: absolute;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.home-tela{
-    width: 268px;
-    margin-top: 3px;
-    border-radius: 3px;
-}
-.redes{
-    position: absolute;
-    display: flex;
-    margin-top: 20px;
-    flex-direction: column;
-    top: 2vh;
-    right: 5vw;
-}
-a img{
-    width: 80px;
-    margin-top: 30px;
-    border-radius: 50%;
-}
-
-
-
-
-@media (max-width: 600px){
-    .iphone, .home-tela{
-        left: 40%;
-    }
 }
