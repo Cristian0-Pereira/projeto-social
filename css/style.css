@@ -16,9 +16,3 @@ body{
 iframe{
     height: 500px;
 }
-.face{
-    background-color: red;
-    width: 268px;
-    height: 80px;
-    background-attachment: fixed;
-}
