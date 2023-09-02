@@ -9,3 +9,16 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.principal img{
+    border-radius: 50%;
+    height: 100px;
+}
+iframe{
+    height: 500px;
+}
+.face{
+    background-color: red;
+    width: 268px;
+    height: 80px;
+    background-attachment: fixed;
+}
